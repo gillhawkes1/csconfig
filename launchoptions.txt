@@ -1,0 +1,1 @@
+-exec autoexec -allow-thrid-party-software -trusted -threads 7
