@@ -1,1 +1,5 @@
--exec autoexec -allow-thrid-party-software -trusted -threads 7 xrandr --output DP-2 -s 1920x1080 -r 280.00 --scale-from 1728x1080 --primary
+-exec autoexec -allow-thrid-party-software -trusted -threads 7
+//to 16:10
+xrandr --output DP-2 -s 1920x1080 -r 280.00 --scale-from 1728x1080 --primary
+//to 16:9
+xrandr --output DP-2 -s 1728x1080 -r 280.00 --scale-from 1920x1080 --primary
